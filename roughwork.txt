@@ -1,0 +1,25 @@
+all posible combinations for password options from A-E
+
+ABC
+ABD
+ABE
+ACD
+ACE
+ADE
+BCD
+BCE
+BDE
+CDE
+
+    special_characters= [
+    '!', '@', '#', '$', '%', '^', '&', '*', '(', ')',
+    '-', '_', '+', '=', '[', ']', '{', '}', '|', '\\',
+    ';', ':', '\'', '"', ',', '.', '<', '>', '/', '?',
+    '`', '~'
+    ]
+    
+    apital_letters = list(string.ascii_uppercase)
+
+    small_letters = list(string.ascii_lowercase)
+    
+    numbers = list(string.digits)
